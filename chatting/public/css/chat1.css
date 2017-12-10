@@ -1,0 +1,180 @@
+/*iphone5~6*/
+@media (min-device-width: 320px) and (max-device-width: 375px) {
+  html {
+    font-size: 10px;
+  }
+
+}
+/*iphone plus*/
+@media (min-device-width: 375px) and (max-device-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+}
+body {
+  margin: 0px;
+  padding: 0
+}
+
+dl {
+  display: inline-block;
+  margin-left: 10px;
+}
+dt {
+  position: absolute;
+  float: left;
+}
+dd {
+  float: left;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.chat-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.chat-header-box {
+  position: fixed;
+  top: 0;
+  display: block;
+  height: 8vh;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  text-align: center;
+  line-height: 8vh;
+  color: black;
+  background-color: white;
+  z-index: 50;
+}
+.chat-header {
+  display: inline-block;
+}
+.backBtn {
+  position: absolute;
+  left: 3%;
+}
+
+
+.chat-line div {
+  display: inline;
+}
+
+.chat-body {
+  margin: 0;
+}
+.chat-content > div {
+  border-bottom: 1px solid gray;
+}
+.chat-content img {
+  margin: 5px 0;
+  display: inline;
+}
+
+.chat-detail {
+  height:623px;
+  background-color: #F2D9D9;
+}
+.cd-content span {
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+.btn {
+  font-size: 1.6rem;
+  color: white;
+  background-color: #f7ac1a;
+}
+.me {
+  float: right;
+}
+.you {
+  float: left;
+  display: inline-block;
+  margin: 4px 0;
+}
+
+
+#chat-header img {
+  position: absolute;
+  left: 5px;
+  vertical-align: top;
+  margin: 5px 0 0 5px;;
+}
+
+#chat-header {
+  text-align: center;
+  line-height: 50px;
+  font-size: 2rem;
+  height: 50px;
+  border-bottom: 1px solid gray;
+}
+
+
+#messageBox img {
+  border-radius: 10px;
+  float: left;
+  margin-right: 7px;
+  width: 50px;
+}
+
+#messageBox {
+  position: fixed;
+  overflow:scroll;
+  width: 100%;
+  height: 80vh;
+  padding: 0;
+  padding-top: 80vh;
+  padding-bottom: 10px;
+  top: 8%;
+  box-sizing: content-box;
+  vertical-align: bottom;
+}
+
+.message-input-box {
+  position: fixed;
+	height: 7vh;
+	max-height: 10vh;
+	bottom: 0;
+  width: 100%;
+  text-align: center;
+  border-top: 0.5px solid lightgray;
+  vertical-align: middle;
+  line-height: 7vh;
+  padding: 0;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+#message {
+  position: absolute;
+  left: 4%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  width: 70%;
+  height: 4vh;
+  max-height: 8vh;
+  outline: none !important;
+  overflow:visible;
+  padding: 0;
+  font-size: 90%;
+  border: none !important;
+  white-space: pre;
+}
+
+#sendBtn {
+  position: absolute;
+	right: 4%;
+	top: 50%;
+	transform: translateY(-50%);
+	border: none !important;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 50px;
+  /* line-height: 95px; */
+  box-sizing: border-box;
+  background-color: white !important;
+}

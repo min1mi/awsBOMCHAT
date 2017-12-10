@@ -1,0 +1,161 @@
+/*iphone5~6*/
+
+@media (min-device-width: 320px) and (max-device-width: 374px) {
+  body {
+    font-size: 13px;
+  }
+  #messageBox img {
+    height: 36.656px;
+  }
+}
+
+
+/*iphone plus*/
+
+@media (min-device-width: 375px) and (max-device-width: 413px) {
+  body {
+    font-size: 14px;
+  }
+  #messageBox img {
+    height: 42.969px;
+  }
+}
+
+@media (min-device-width: 414px) and (max-device-width: 735px) {
+  body {
+    font-size: 15px;
+  }
+  #messageBox img {
+    height: 47.438px;
+  }
+}
+
+.chat-container {
+  padding: 0;
+  position: relative;
+}
+
+.chat-header-box {
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 60px;
+  background-color: #f7ac1a;
+  height: 60px;
+  color: white;
+}
+
+.chat-header-box > .backBtn {
+  position: absolute;
+  left: 5%;
+  bottom: 8%;
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 2.5;
+  color: white;
+}
+
+.user {
+  font-size: 2.8rem;
+  color: lightgray;
+  float: right;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.chat-content>div {
+  border-bottom: 1px solid gray;
+}
+
+.chat-content img {
+  margin: 5px 0;
+  display: inline;
+}
+
+.cd-content span {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin: 2px 0;
+}
+
+.btn {
+  position: absolute;
+  right: 7px;
+  font-size: 1.6rem;
+  color: white;
+  background-color: #f7ac1a;
+}
+
+.cd-content .me {
+  float: right;
+  border: none;
+  color: white;
+  background-color: black;
+
+}
+
+.you {
+  display: inline-block;
+  margin: 4px 0;
+}
+
+.message-input-box {
+  position: fixed;
+  bottom: 0;
+  height: 6vh;
+  width: 100%;
+}
+
+#cd-header img {
+  position: absolute;
+  left: 5px;
+  vertical-align: top;
+  margin: 5px 0 0 5px;
+}
+
+#cd-header {
+  text-align: center;
+  line-height: 50px;
+  font-size: 2rem;
+  height: 50px;
+  border-bottom: 1px solid gray;
+}
+
+#messageBox img {
+  border-radius: 50px;
+  float: left;
+  margin-right: 2%;
+  width: 12%;
+  margin-bottom: 1%;
+  border: none;
+}
+
+#messageBox {
+  position: fixed;
+  box-sizing: content-box;
+  /*position: absolute;*/
+  overflow: scroll;
+  width: 95.5%;
+  height: 82%;
+  top: 60px;
+  padding: 0 10px;
+  /*vertical-align: bottom;*/
+}
+
+#cd-footer {
+  box-sizing: border-box;
+}
+
+#message {
+  left: 6px;
+  top: 0px;
+  position: absolute;
+  height: 6vh;
+  border-radius: 10px;
+  width: 78%;
+  outline: none;
+}
